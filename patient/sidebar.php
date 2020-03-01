@@ -6,7 +6,7 @@
         <div class="sidebar-brand-icon ">
         <i class="far fa-user"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Admin</div>
+        <div class="sidebar-brand-text mx-3">Patient</div>
       </a>
 
       <!-- Divider -->
@@ -19,29 +19,26 @@
           <span>Dashboard</span></a>
       </li>
 
-      
-      <hr class="sidebar-divider">
-<!--
-      
-     
-
       <hr class="sidebar-divider">
 
       
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+        <a class="nav-link" href="health.php">
         <i class="far fa-file"></i>
-          <span>Form</span>
+          <span>Health Issues</span>
         </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="form.php">Audit Course</a>
-            <a class="collapse-item" href="form.php">Interdisciplinary Course</a>
-            <a class="collapse-item" href="form.php">Elective Course</a>
-          </div>
-        </div>
+        
       </li> 
-      -->
+      <hr class="sidebar-divider">
+
+      
+      <li class="nav-item">
+        <a class="nav-link" href="doctorsuggest.php">
+        <i class="far fa-file"></i>
+          <span>Doctors</span>
+        </a>
+        
+      </li> 
      
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
